@@ -17,7 +17,7 @@ const TodoItemRoute = require("./routes/todoItems");
 
 //connect to mongodb ..
 mongoose
-  .connect("mongodb://localhost:27017/todolist")
+  .connect("mongodb://172.31.15.95:27017/todolist")
   .then(() => console.log("Database connected"))
   .catch((err) => console.log(err));
 
